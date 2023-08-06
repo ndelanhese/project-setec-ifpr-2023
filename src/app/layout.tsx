@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './globals.css'
+import { Header } from '@/components/shared/header/header'
 
 export const metadata = {
   title: 'Template app',
@@ -9,7 +10,10 @@ export const metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="pt-BR" className="bg-light-yellow px-24 py-8 text-dark-blue">
-    <body>{children}</body>
+    <body>
+      <Header />
+      {children}
+    </body>
   </html>
 )
 

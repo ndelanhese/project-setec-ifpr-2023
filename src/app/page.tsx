@@ -8,7 +8,9 @@ const Home = () => (
     <div className="flex flex-row justify-between pt-[7.5rem]">
       <div>
         <div className="mb-9 mt-[6.875rem] flex flex-col">
-          <h5 className="text-[1.75rem] font-medium">Hello, I’m Delanhese,</h5>
+          <h5 className="text-[1.75rem] font-medium">
+            Hello, I&apos;m Delanhese,
+          </h5>
           <h1 className="w-[38.5rem] text-[100px] font-extrabold leading-[116px]">
             Software Engineer
           </h1>
@@ -25,13 +27,13 @@ const Home = () => (
         <Stars className="absolute right-0" />
         <Circle />
         <Slash className="absolute bottom-[6.25rem]" />
-        {/* <Image
+        <Image
           src="https://github.com/ndelanhese.png"
           alt="image profile from github profile by Nathan Delanhese"
-          width={500}
-          height={500}
-          className="absolute left-0 top-0 -z-10"
-        /> */}
+          width={450}
+          height={450}
+          className="absolute left-6 top-8 -z-10 rounded-full"
+        />
       </div>
     </div>
   </main>

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './globals.css'
-import { Header } from '@/components/shared/header/header'
+import { Header } from '@components/shared/header/header'
 
 export const metadata = {
   title: 'Portfolio - Delanhese',
@@ -9,7 +9,10 @@ export const metadata = {
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
-  <html lang="pt-BR" className="bg-light-yellow text-dark-blue">
+  <html
+    lang="pt-BR"
+    className="overflow-y-hidden bg-light-yellow text-dark-blue"
+  >
     <body>
       <Header />
       {children}

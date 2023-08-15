@@ -16,11 +16,8 @@ export const HeaderWrapper = ({ children }: HeaderWrapperProps) => {
 
   if (isMobile && !isSidebarOpen) {
     return (
-      <button
-        onClick={() => setIsSidebarOpen(true)}
-        className="self-start pl-4 pt-4"
-      >
-        <AlignJustify />
+      <button onClick={() => setIsSidebarOpen(true)} className="pl-4 pt-4">
+        <AlignJustify className="h-10 w-10" />
       </button>
     )
   }
@@ -36,7 +33,7 @@ export const HeaderWrapper = ({ children }: HeaderWrapperProps) => {
           onClick={() => setIsSidebarOpen(false)}
           className="self-start pl-4 pt-4"
         >
-          <X />
+          <X className="h-10 w-10" />
         </button>
         {children}
       </div>

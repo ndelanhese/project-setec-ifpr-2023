@@ -4,7 +4,7 @@ import { Stars } from '@components/icons/stars'
 import Image from 'next/image'
 
 export const ImageProfile = () => (
-  <div className="relative h-[31.25rem] w-96 sm:w-[31.25rem]">
+  <div className="relative h-[31.25rem] w-96 max-w-[100dvw] sm:w-[31.25rem]">
     <Stars className="absolute right-0 top-8 sm:top-0" />
     <Circle className="w-96 sm:w-auto" />
     <Slash className="absolute bottom-[6.25rem]" />

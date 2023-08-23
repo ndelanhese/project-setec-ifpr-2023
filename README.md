@@ -44,3 +44,8 @@ pnpm dev
 
 ### Contributing
 We welcome contributions from the community to enhance the project. If you find any issues or have ideas to improve the portfolio, please feel free to open an issue or submit a pull request.
+
+### Links
+- [Notion](https://delanhese.notion.site/Minicurso-Next-JS-afd21c0eaff941a28b34bbf1a5a4b08e?pvs=4)
+- [Figma](https://www.figma.com/file/BMljCiD51faSNDxnJzzfg4/Portfolio-(Community)-(Copy)?type=design&node-id=0%3A1&mode=dev)
+- [Project](https://project-setec-ifpr-2023.vercel.app/)
